@@ -1,0 +1,13 @@
+Bu kütüphaneler ne işe yarayacak?
+
+fastapi: Web API'mizi yazacağımız ana framework.
+
+uvicorn: Yazdığımız API'yi çalıştıracak olan sunucu (server).
+
+sqlalchemy: Python kodumuzun veritabanıyla konuşmasını sağlayan kütüphane (ORM). SQL yazmadan Python class'ları ile veritabanı yönetmemizi sağlar.
+
+psycopg2-binary: PostgreSQL veritabanı sürücüsü (Cloud SQL için lazım olacak ).
+
+pydantic: Veri doğrulama (Validation). Kullanıcıdan gelen verinin düzgün olup olmadığını kontrol eder.
+
+python-dotenv: Şifreleri ve gizli ayarları kodun içine gömmemek için .env dosyasından okumamızı sağlar.
